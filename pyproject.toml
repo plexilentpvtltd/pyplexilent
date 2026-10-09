@@ -4,12 +4,12 @@ build-backend = "hatchling.build"
 
 [project]
 name = "pyplexilent"
-version = "0.1.0"
+version = "0.1.1"
 description = "Async client for the Plexilent smart lighting cloud"
 readme = "README.md"
 license = "MIT"
 requires-python = ">=3.12"
-authors = [{ name = "Lumens Technologies", email = "connect@plexilent.com" }]
+authors = [{ name = "Plexilent", email = "connect@plexilent.com" }]
 dependencies = ["aiohttp>=3.9"]
 classifiers = ["Framework :: AsyncIO", "Programming Language :: Python :: 3"]
 
